@@ -1,0 +1,74 @@
+# Fichiers compilés Java
+*.class
+
+# Fichiers de logs
+*.log
+logs/
+*.log.*
+
+# Fichiers de build Maven
+target/
+*.jar
+*.war
+*.ear
+
+# Fichiers temporaires Maven
+.mvn/
+mvnw
+mvnw.cmd
+!.mvn/wrapper/maven-wrapper.jar
+
+# Dossier de dépendances Maven généré
+dependency-reduced-pom.xml
+
+# Fichiers d'IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers de build Gradle (au cas où vous en auriez besoin)
+.gradle/
+build/
+
+# Fichiers spécifiques à Spring Boot
+*.springBeans
+spring.log
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+*.env
+
+# Fichiers de configuration sensibles
+secrets.yaml
+config.properties
+keystore.p12
+*.jks
+
+# Fichiers de dépendances locaux
+lib/
+
+# Fichiers temporaires ou de sauvegarde
+*~
+*.swp
+*.swo
+*.bak
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Dossiers de test ou de couverture
+coverage/
+*.lcov
